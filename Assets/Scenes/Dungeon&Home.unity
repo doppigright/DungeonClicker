@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 788179356}
   - component: {fileID: 788179355}
   - component: {fileID: 788179357}
+  - component: {fileID: 788179358}
   m_Layer: 0
   m_Name: hut
   m_TagString: Untagged
@@ -366,7 +367,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788179354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 77.41895, y: -12.92025, z: -379.31842}
+  m_LocalPosition: {x: 71, y: -12.92025, z: -7}
   m_LocalScale: {x: 22.597517, y: 22.409864, z: 51.270832}
   m_Children: []
   m_Father: {fileID: 70583645}
@@ -384,6 +385,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a708a49f2242fa141a02835f5de24253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &788179358
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788179354}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.06266204, y: -0.12082198}
+  serializedVersion: 2
+  m_Radius: 3.2531972
 --- !u!1 &1624420225
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,6 +412,7 @@ GameObject:
   - component: {fileID: 1624420227}
   - component: {fileID: 1624420226}
   - component: {fileID: 1624420228}
+  - component: {fileID: 1624420229}
   m_Layer: 0
   m_Name: dungeon-gate
   m_TagString: Untagged
@@ -458,8 +476,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624420225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -67.6775, y: -17.996063, z: -406.58325}
-  m_LocalScale: {x: 22.509949, y: 20.822111, z: 51.270832}
+  m_LocalPosition: {x: -67.6775, y: -17.996063, z: -4}
+  m_LocalScale: {x: 22.509949, y: 20.82836, z: 51.270832}
   m_Children: []
   m_Father: {fileID: 70583645}
   m_RootOrder: 2
@@ -476,6 +494,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a708a49f2242fa141a02835f5de24253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!70 &1624420229
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624420225}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00073474005, y: -0.51332295}
+  m_Size: {x: 6.4011216, y: 9.271878}
+  m_Direction: 0
 --- !u!1 &1739563080
 GameObject:
   m_ObjectHideFlags: 0
